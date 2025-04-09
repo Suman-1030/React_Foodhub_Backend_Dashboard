@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import { Api_path } from '../../vendorDashboard/data/Api_path'
+import { Api_path } from '../../vendorDashboard/Data/api_path'
 
 function Register({Loginhandler}) {
  const [Username,setUsername]=useState("")

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Api_path } from '../../vendorDashboard/data/Api_path';
+import { Api_path } from '../../vendorDashboard/Data/api_path';
+
 
 function AddProduct() {
   const [Productname, setProductname] = useState('');
@@ -62,6 +63,7 @@ function AddProduct() {
 
   return (
     <div className="addpr">
+      
       <form onSubmit={Submithandler}>
         <h2>Add Product</h2>
 
