@@ -1,5 +1,5 @@
 import React,{useState,useEffect} from 'react'
-import { Api_path } from '../vendorDashboard/data/Api_path'
+import { Api_path } from '../vendorDashboard/Data/api_path'
 
 
 function AllProducts() {
